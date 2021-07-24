@@ -31,3 +31,26 @@ def lottery():
 
 for random_number in lottery():
        print("And the next number is... %d!" %(random_number))
+       
+       # swap 
+       
+  # fill in this function
+def fib():
+   # temp = a;
+   # a = b;
+   # b = temp;
+a, b = 1, 1
+    while 1:
+        yield a
+        a, b = b, a + b
+# testing code
+import types
+if type(fib()) == types.GeneratorType:
+    print("Good, The fib function is a generator.")
+
+    counter = 0
+    for n in fib():
+        print(n)
+        counter += 1
+        if counter == 10:
+            break
