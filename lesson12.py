@@ -1,4 +1,6 @@
 # https://www.learnpython.org/en/List_Comprehensions 
+# August 7, 2021
+
 sentence = "the quick brown fox jumps over the lazy dog"
 words = sentence.split()
 word_lengths = []
