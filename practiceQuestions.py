@@ -11,7 +11,12 @@
 # Both of these are used to store data. 
 # A list is comma seperated values within square brackets. These can be changed. 
 mylist = ["apple", "banana", "cherry"]
-fiveLetters = len(mylist(1))
 # A tuple has values enclosed in curly braces. These cannot be changed 
 mytuple = ("apple", "banana", "cherry")
+
+# number 3 
+# What is a lambda function? Why are they used?
+# lambda functions have no name and are anonymous functions. These are used as alternative to declaring a regular function
+prices = [2.50, 3.20, 2.90]
+num = list(filter(lambda price: (price > 3), prices))
 
