@@ -1,4 +1,4 @@
-# September 2, 2021
+# September 2, 2021 practice
 
 # number 1
 # Describe the concept of scope in Python with reference to local and global scope: scope is wehre a variable is accessible. 
