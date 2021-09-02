@@ -20,3 +20,5 @@ mytuple = ("apple", "banana", "cherry")
 prices = [2.50, 3.20, 2.90]
 num = list(filter(lambda price: (price > 3), prices))
 
+# number 4 
+# What is the __init__ method? Write an example of an __init__ method for the following properties:
