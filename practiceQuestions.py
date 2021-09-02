@@ -22,3 +22,9 @@ num = list(filter(lambda price: (price > 3), prices))
 
 # number 4 
 # What is the __init__ method? Write an example of an __init__ method
+# The init method defines a constructor in an object. it is called when the object is created. Basically how you make a constructor. 
+class Student():
+  def __init__(self, name, date_of_birth, grade):
+     self.name = name
+     self.date_of_birth = date_of_birth
+     self.grade = grade
