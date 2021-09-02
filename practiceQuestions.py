@@ -28,3 +28,5 @@ class Student():
      self.name = name
      self.date_of_birth = date_of_birth
      self.grade = grade
+# so then when you declare on object you say nicole = Student("Nicole", "06/10/2000", 15)
+
