@@ -41,3 +41,4 @@ show_age(age=21, name="Nicole")
 
 # number 6 
 # what makes Python an object oriented programming language?
+# objects and classes are used to organize the code. 
