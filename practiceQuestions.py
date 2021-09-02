@@ -9,10 +9,14 @@
 # number 2 
 # What is the difference between a tuple and a list?
 # Both of these are used to store data. 
-# A list is comma seperated values within square brackets. These can be changed. 
+# A list is comma seperated values within square brackets. These can be changed. ordered, changeable, and allows duplicate members
 mylist = ["apple", "banana", "cherry"]
 # A tuple has values enclosed in curly braces. These cannot be changed 
 mytuple = ("apple", "banana", "cherry")
+# set. does not allow duplicates
+myset = {"apple", "banana", "cherry"}  
+# dictionary 
+mydictionary = {"name": "apple", "color": "green"}  
 
 # number 3 
 # What is a lambda function? Why are they used?
@@ -46,3 +50,18 @@ show_age(age=21, name="Nicole")
 # new information
 # static - data types checked before executio. Dynamic - checked during 
 # if elif else
+
+# declare a variable 
+x = 5;
+y = int(5)
+
+# print type of variable
+print(type(x)) 
+
+#'hello' is the same as "hello"
+
+x = "Hello"[0]  # find first character in a string 
+
+strip()  # remove whitespace
+
+# foo'bar == 'foo'bar' == """foo'bar""" == 'foo\'bar'
