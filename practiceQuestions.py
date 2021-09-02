@@ -38,3 +38,6 @@ def show_age(**student):
 	print("{} is {} years old.".format(student["name"], student["age"]))
 
 show_age(age=21, name="Nicole")
+
+# number 6 
+# what makes Python an object oriented programming language?
