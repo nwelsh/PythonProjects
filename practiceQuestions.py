@@ -45,3 +45,4 @@ show_age(age=21, name="Nicole")
 
 # new information
 # static - data types checked before executio. Dynamic - checked during 
+# if elif else
