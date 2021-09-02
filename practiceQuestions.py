@@ -32,3 +32,9 @@ class Student():
 
 # number 5 
 # What is *args and **kwargs? Give an example of **kwargs in use.
+# args statement returns a tuple of arguments. you can access with indexing.
+# kwargs returns a dictionary of arguments. arguments are mapped with keys and values 
+def show_age(**student):
+	print("{} is {} years old.".format(student["name"], student["age"]))
+
+show_age(age=21, name="Nicole")
