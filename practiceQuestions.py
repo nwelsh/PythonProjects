@@ -16,7 +16,7 @@ mytuple = ("apple", "banana", "cherry")
 # set. does not allow duplicates
 myset = {"apple", "banana", "cherry"}  
 # dictionary 
-mydictionary = {"name": "apple", "color": "green"}  
+mydictionary = {"name": "apple", "color": "green"}  # is used within objects
 
 # number 3 
 # What is a lambda function? Why are they used?
