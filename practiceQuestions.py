@@ -17,6 +17,7 @@ mytuple = ("apple", "banana", "cherry")
 myset = {"apple", "banana", "cherry"}  
 # dictionary 
 mydictionary = {"name": "apple", "color": "green"}  # is used within objects
+# when the data has a unique reference that can be associated with the value
 
 # number 3 
 # What is a lambda function? Why are they used?
