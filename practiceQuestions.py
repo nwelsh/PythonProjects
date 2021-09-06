@@ -65,3 +65,5 @@ x = "Hello"[0]  # find first character in a string
 strip()  # remove whitespace
 
 # foo'bar == 'foo'bar' == """foo'bar""" == 'foo\'bar'
+
+# at interview: hash tables, dictionaries and when and why we use them, ids and classes
