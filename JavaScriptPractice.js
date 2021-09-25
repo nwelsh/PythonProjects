@@ -97,3 +97,19 @@ if(x) { console.log(x) }   // The code inside this block will not run since the 
         
 if(y) { console.log(y) }    // The code inside this block will run since the value of y is 23 (Truthy)
 
+//static vs dynamic 
+//static = variables and values have tyopes, they cannot change type 
+//dynamic = no types, values have tupes, can be changed 
+//therefore, dynamic 
+
+//NaN property: a value which is not a legal number. typeof NaN will return a number 
+isNaN("Hello")  // Returns true
+isNaN(345)   // Returns false
+isNaN('1')  // Returns false, since '1' is converted to Number type which results in 0 ( a number) 
+
+//passed by value and passed by reference.
+
+// pass by value means you are making a copy in memory of the actual parameter's value 
+// that is passed in, a copy of the contents of the actual parameter.
+// pass by reference (also called pass by address), a copy of the address of the actual 
+// parameter is stored.
