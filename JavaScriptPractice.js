@@ -113,3 +113,9 @@ isNaN('1')  // Returns false, since '1' is converted to Number type which result
 // that is passed in, a copy of the contents of the actual parameter.
 // pass by reference (also called pass by address), a copy of the address of the actual 
 // parameter is stored.
+
+//immediately invoked function: a function that runs as soon as it is defined.
+(function(){ 
+  // Do something;
+})();
+
