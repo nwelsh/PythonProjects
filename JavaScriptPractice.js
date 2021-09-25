@@ -119,3 +119,9 @@ isNaN('1')  // Returns false, since '1' is converted to Number type which result
   // Do something;
 })();
 
+//Higher Order Functions: Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
+
+//this keyword: 
+
+
+
