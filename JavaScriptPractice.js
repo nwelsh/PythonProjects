@@ -87,3 +87,13 @@ var x = 3;
 Var y = "3";
 x - y    //Returns 0 since the variable y (string type) is converted to a number type
 
+//boolean coercion 
+//All values except 0, 0n, -0, “”, null, undefined and NaN are truthy values.
+
+var x = 0;
+var y = 23;
+        
+if(x) { console.log(x) }   // The code inside this block will not run since the value of x is 0(Falsy)  
+        
+if(y) { console.log(y) }    // The code inside this block will run since the value of y is 23 (Truthy)
+
