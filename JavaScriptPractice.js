@@ -1,3 +1,4 @@
+//author : https://www.interviewbit.com/javascript-interview-questions/
 //data types 
 
 //string 
@@ -153,3 +154,23 @@ var person2 = {age:  54};
 person.getAge.call(person2);
         
 // Returns 54  
+
+//bind() - returns a new function where the value of this will be bound to the owner obejct, provided as a parameter
+var bikeDetails = {
+    displayDetails: function(registrationNumber,brandName){
+    return this.name+ " , "+ "bike details: "+ registrationNumber + " , " + brandName;
+  }
+}
+        
+var person1 = {name:  "Vivek"};
+        
+var detailsOfPerson1 = bikeDetails.displayDetails.bind(person1, "TS0122", "Bullet");
+        
+// Binds the displayDetails function to the person1 object
+        
+        
+detailsOfPerson1();
+// Returns Vivek, bike details: TS0452, Thunderbird
+
+//currying:an advanced technique to transform a function of arguments n, to n functions of one or less arguments.
+
