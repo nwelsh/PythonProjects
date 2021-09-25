@@ -121,7 +121,35 @@ isNaN('1')  // Returns false, since '1' is converted to Number type which result
 
 //Higher Order Functions: Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
 
-//this keyword: 
+//this keyword: refers to the object that the function is a property of 
+var obj = {
+    name:  "vivek",
+    getName: function(){
+    console.log(this.name);
+  }
+}
+        
+obj.getName();
+//output: akshay. is higher importance than beign overrridden
 
+//call() method - invokes a method by specifying the owner objkect. allows an object to use the method of another object 
+function sayHello(){
+  return "Hello " + this.name;
+}
+        
+var obj = {name: "Sandy"};
+        
+sayHello.call(obj);
 
-
+//axample 2 
+var person = {
+  age: 23,
+  getAge: function(){
+    return this.age;
+  }
+}
+        
+var person2 = {age:  54};
+person.getAge.call(person2);
+        
+// Returns 54  
