@@ -28,3 +28,20 @@ var a = null;
 //symbol - store anonymous and unique values 
 var symbol1 = Symbol('symbol');
 
+// typeof returns what that is 
+typeof "Nicole" //returns strong
+typeof 21.5 //returns number 
+typeof null // Returns "object"
+
+//non primitive types can hold multiple types of values 
+var obj1 = {
+   x:  43,
+   y:  "Hello world!",
+   z: function(){
+      return this.x;
+   }
+}
+      
+// Collection of data as an ordered list
+      
+var array1 = [5, "Hello", true, 4.1];   
