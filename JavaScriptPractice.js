@@ -64,3 +64,26 @@ var y = "2";
 
 (x === y) // Returns false since the typeof x is "number" and typeof y is "string"
 
+//implicit type coercion - auto conversion of a vlaue from one type to another. when teh operands are different types 
+//example 1 
+
+var x = 3;
+var y = "3";
+x + y // Returns "33" 
+
+//example 2 
+var x = 24;
+var y = "Hello";
+x + y   // Returns "24Hello";
+
+//example 3 
+var name = "Vivek";
+var surname = " Bisht";
+
+name + surname     // Returns "Vivek Bisht"
+
+//example 4
+var x = 3;
+Var y = "3";
+x - y    //Returns 0 since the variable y (string type) is converted to a number type
+
