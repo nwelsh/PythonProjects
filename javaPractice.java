@@ -94,32 +94,5 @@ public void finalize() { //called so the clean up activity is implemented
 
 /* garbage collector: enure the memory resouce is used efficiently. Heap is cleaned up  */
 
-/* */
-
-/* */
-
-/* */
-
-/* */
-
-
-/* */
-
-/* */
-
-/* */
-
-/* */
-
-/* */
-
-
-/* */
-
-/* */
-
-/* */
-
-/* */
-
-/* */
+/* hash table: Hashtable stores key/value pairs in a hash table. When using a Hashtable, you specify an object that is used as a key, and the value that you want linked to that key.
+You use keys to access data */
