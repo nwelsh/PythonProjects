@@ -92,7 +92,7 @@ public void finalize() { //called so the clean up activity is implemented
            super.foo();    //Calls foo method of Parent class inside the Overriden foo method of Child class.
        }
 
-/* */
+/* garbage collector: enure the memory resouce is used efficiently.  */
 
 /* */
 
