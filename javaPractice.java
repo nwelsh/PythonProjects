@@ -22,7 +22,7 @@ int athleteAge;
 
 /* Data encapsulation: hiding data attributes and their behaviors in a single unit. setters and getters*/
 
-/* */
+/* JIT: just in time, improving the performance during run time. it foes the task of complitiing parts of bye code having similar functionality at the same tieme and reduces the compile time */
 
 /* */
 
