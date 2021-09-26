@@ -4,7 +4,49 @@
 //1:00-1:30 9/29 Singlewire
 
 //*****************************************************************************************************************************************************************HTML 
+// https://www.javatpoint.com/html-interview-questions 
 
+// what is HTML? Hyper Text Markup Language
+
+//tags: HTML tags are composed of three things: an opening tag, content and ending tag.
+
+//lists: ordered, unordered, definition
+
+//Html elements vs tags: HTML tags are composed of three things: an opening tag, content and ending tag.
+
+//Semantic HTML is a coding style. ex  using strong instead of b for bold 
+
+//insert copyright or other symbols: &copy or &#169
+
+//<header>: It is used to define a header for a document or a section.
+//<nav>: It is used to define a container for navigation links
+//<section>: It is used to define a section in a document
+//<article>: It is used to define an independent, self-contained article
+//<aside>: It is used to define content aside from the content (like a sidebar)
+//<footer>: It is used to define a footer for a document or a section
+  
+  //marquee: scrolling text on a webpage 
+  
+  //span tag: add color, background on text, highlight... inline changes like the middle 
+  
+  //An iframe is used to display a web page within a web page. also nested 
+
+// what are entities: HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
+
+ 	&lt;
+  
+  //canvas element: <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript, copyright 
+  
+  //SVG:SVG is used to describe the two-dimensional vector and vector/raster graphics
+  <svg width="100" height="100">    
+ <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />    
+</svg>   //this creates a red circle
+  
+  //new form elements in HTML:  color, date, datetime-local, email, time URL, range, telephone, numbr, search 
+  
+// difference between ID and class 
+  // id : unique ina pafe and can apply to at most one element 
+  //class selector can be multiple elements 
 //*****************************************************************************************************************************************************************Python
 
 //*****************************************************************************************************************************************************************JS
