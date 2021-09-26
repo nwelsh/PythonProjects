@@ -20,7 +20,7 @@ double athleteSpeed;
 int athleteAge;
 }
 
-/* */
+/* Data encapsulation: hiding data attributes and their behaviors in a single unit. setters and getters*/
 
 /* */
 
