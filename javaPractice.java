@@ -83,6 +83,40 @@ System.gc(); // Garbage collector called
 public void finalize() { //called so the clean up activity is implemented
 // Finalize called
 } 
+/* The super keyword is used to access hidden fields and overridden methods or attributes of the parent class. */
+ public void foo(){
+           System.out.println("Parent class foo!");
+           super.foo();    //Calls foo method of Parent class inside the Overriden foo method of Child class.
+       }
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+
+/* */
+
+/* */
+
+/* */
+
 /* */
 
 /* */
