@@ -63,6 +63,7 @@ public Hospital(double salaries) {
 
 /* mothod overloading vs overriding: overlaoding returns dif variables, overridingreturns same varibales. it extends. it has the same parameters  
 static methods CAN be overloaded
+static methods CANNOT be overridden
 */
 
 
