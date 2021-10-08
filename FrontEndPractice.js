@@ -4,6 +4,7 @@
 //1:45-2:15 pm 9/27 CUNA
 //1:00-1:30 9/29 Singlewire
 //11:15 9/27 MRA
+//9:00 am MPX interview 10/8
 //3:00 Naviant Interview 10/8
 //1:30 Exact Sciences 10/11
 
